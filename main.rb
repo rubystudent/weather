@@ -19,8 +19,8 @@ class Main
   def connection 
     @connection||= Faraday.new(url:'http://openweathermap.org') do |faraday|		
     faraday.request :url_encoded
-    faraday.adapter Faraday.default_adapter #здесь слово адаптер неправильно написано было) 
-    end #здесь енд забыл(может и не здесь, не помню)
+    faraday.adapter Faraday.default_adapter 
+    end
   end
 
   def conditions
