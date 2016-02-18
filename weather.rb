@@ -5,7 +5,7 @@ class Weather
   def initialize (city_name,temp)
   	@city_name, @temp = city_name, temp
   	@created_time=Time.now
-    #date удалил нахуй, потому что дата принемает параметры, но она здесь нахуй не нужна, в тайм есть дата
+    
   end	
 
   def weather_info
